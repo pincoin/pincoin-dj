@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-25 22:53+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: member/admin.py:23
+msgid "Account"
+msgstr ""
+
+#: member/admin.py:27
+msgid "Profile"
+msgstr ""
+
+#: member/admin.py:45 member/models.py:55
+msgid "phone verified"
+msgstr ""
+
+#: member/admin.py:64
+msgid "Full name"
+msgstr ""
+
+#: member/models.py:21
+msgid "cellphone unverified"
+msgstr ""
+
+#: member/models.py:22
+msgid "cellphone verified"
+msgstr ""
+
+#: member/models.py:23
+msgid "cellphone revoked"
+msgstr ""
+
+#: member/models.py:27 member/models.py:211
+msgid "female"
+msgstr ""
+
+#: member/models.py:28 member/models.py:212
+msgid "male"
+msgstr ""
+
+#: member/models.py:32 member/models.py:216
+msgid "foreign"
+msgstr ""
+
+#: member/models.py:33 member/models.py:167 member/models.py:217
+#: member/models.py:296
+msgid "domestic"
+msgstr ""
+
+#: member/models.py:42 member/models.py:396
+msgid "phone number"
+msgstr ""
+
+#: member/models.py:49
+msgid "address"
+msgstr ""
+
+#: member/models.py:60
+msgid "cellphone verified status"
+msgstr ""
+
+#: member/models.py:67
+msgid "document verified"
+msgstr ""
+
+#: member/models.py:72
+msgid "allow order"
+msgstr ""
+
+#: member/models.py:77
+msgid "photo ID"
+msgstr ""
+
+#: member/models.py:83
+msgid "bank account or debit/credit card"
+msgstr ""
+
+#: member/models.py:89
+msgid "total order count"
+msgstr ""
+
+#: member/models.py:94
+msgid "first purchased date"
+msgstr ""
+
+#: member/models.py:99
+msgid "last purchased date"
+msgstr ""
+
+#: member/models.py:104
+msgid "not purchased for months"
+msgstr ""
+
+#: member/models.py:109
+msgid "re-purchased date"
+msgstr ""
+
+#: member/models.py:114
+msgid "max price"
+msgstr ""
+
+#: member/models.py:121
+msgid "total list price"
+msgstr ""
+
+#: member/models.py:128
+msgid "total selling price"
+msgstr ""
+
+#: member/models.py:135
+msgid "average price"
+msgstr ""
+
+#: member/models.py:142
+msgid "mileage"
+msgstr ""
+
+#: member/models.py:149
+msgid "user memo"
+msgstr ""
+
+#: member/models.py:154 member/models.py:283
+msgid "date of birth"
+msgstr ""
+
+#: member/models.py:160 member/models.py:289
+msgid "gender"
+msgstr ""
+
+#: member/models.py:174 member/models.py:303
+msgid "telecom"
+msgstr ""
+
+#: member/models.py:180
+msgid "profile"
+msgstr ""
+
+#: member/models.py:181
+msgid "profiles"
+msgstr ""
+
+#: member/models.py:190 member/models.py:228
+msgid "user"
+msgstr ""
+
+#: member/models.py:198
+msgid "IP address"
+msgstr ""
+
+#: member/models.py:202
+msgid "login log"
+msgstr ""
+
+#: member/models.py:203
+msgid "login logs"
+msgstr ""
+
+#: member/models.py:221
+msgid "token"
+msgstr ""
+
+#: member/models.py:236
+msgid "code"
+msgstr ""
+
+#: member/models.py:242
+msgid "reason"
+msgstr ""
+
+#: member/models.py:248
+msgid "result code"
+msgstr ""
+
+#: member/models.py:254
+msgid "message"
+msgstr ""
+
+#: member/models.py:260
+msgid "transaction id"
+msgstr ""
+
+#: member/models.py:266
+msgid "di"
+msgstr ""
+
+#: member/models.py:272
+msgid "ci"
+msgstr ""
+
+#: member/models.py:277
+msgid "fullname"
+msgstr ""
+
+#: member/models.py:309 member/models.py:330
+msgid "cellphone"
+msgstr ""
+
+#: member/models.py:315
+msgid "return message"
+msgstr ""
+
+#: member/models.py:321
+msgid "phone verification log"
+msgstr ""
+
+#: member/models.py:322
+msgid "phone verification logs"
+msgstr ""
+
+#: member/models.py:336
+msgid "sent datetime"
+msgstr ""
+
+#: member/models.py:342 member/models.py:343 member/models.py:369
+msgid "mms"
+msgstr ""
+
+#: member/models.py:351
+msgid "txt"
+msgstr ""
+
+#: member/models.py:352
+msgid "jpg"
+msgstr ""
+
+#: member/models.py:353
+msgid "png"
+msgstr ""
+
+#: member/models.py:357
+msgid "mime type"
+msgstr ""
+
+#: member/models.py:364
+msgid "data"
+msgstr ""
+
+#: member/models.py:374 member/models.py:375
+msgid "mms data"
+msgstr ""
+
+#: member/models.py:383
+msgid "email address"
+msgstr ""
+
+#: member/models.py:387
+msgid "banned email address"
+msgstr ""
+
+#: member/models.py:388
+msgid "banned email addresses"
+msgstr ""
+
+#: member/models.py:402
+msgid "banned phone number"
+msgstr ""
+
+#: member/models.py:403
+msgid "banned phone numbers"
+msgstr ""

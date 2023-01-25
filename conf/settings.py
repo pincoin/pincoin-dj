@@ -117,12 +117,13 @@ if not DEBUG:
     SESSION_COOKIE_SAMESITE = 'Strict'
 
 LANGUAGE_CODE = 'ko-kr'
+LOCALE_PATHS = (BASE_DIR / 'locale',)
+USE_I18N = True
+USE_L10N = True
 
 # 모든 Amazon RDS DB 인스턴스는 UTC/GMT 시간이 기본값
 # DB 인스턴스의 DB 파라미터 그룹에서 time_zone 파라미터를 "Asia/Seoul"으로 설정
 TIME_ZONE = 'Asia/Seoul'
-USE_I18N = True
-USE_L10N = True
 USE_TZ = True
 USE_THOUSAND_SEPARATOR = True
 

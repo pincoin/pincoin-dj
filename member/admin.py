@@ -21,12 +21,10 @@ class ProfileAdmin(admin.ModelAdmin):
 
     fieldsets = (
         (_('Account'), {
-            'fields': ('user', 'full_name', 'email', 'date_joined',
-                       'phone_verified_status', 'document_verified', 'not_purchased_months', 'allow_order')
+            'fields': ('user', 'phone_verified_status', 'document_verified', 'not_purchased_months', 'allow_order')
         }),
         (_('Profile'), {
-            'fields': ('phone', 'address', 'photo_id_preview', 'card_preview', 'mileage', 'memo',
-                       'first_purchased', 'last_purchased')
+            'fields': ('phone', 'address', 'mileage', 'memo', 'first_purchased', 'last_purchased')
         }),
     )
 

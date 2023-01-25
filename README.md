@@ -36,7 +36,7 @@
 * banner_ (미사용/이관 안 함)
 * bookkeeping_ (미사용/이관 안 함)
 
-# RDBMS
+# 주요 설정
 ## MariaDB RDBMS
 ```
 sudo mysql -uroot
@@ -44,4 +44,14 @@ sudo mysql -uroot
 > CREATE USER 'pincoin'@'%' IDENTIFIED BY 'your_password'
 > GRANT ALL PRIVILEGES ON pincoin.* TO 'pincoin'@'%';
 > FLUSH PRIVILEGES;
+```
+
+## 다국어
+```
+python manage.py makemessages -l ko -i venv
+```
+
+```
+python manage.py makemessages -a -i venv
+python manage.py compilemessages -i venv
 ```

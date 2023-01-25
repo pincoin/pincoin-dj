@@ -366,7 +366,7 @@ class MmsData(models.Model):
 
     mms = models.ForeignKey(
         'member.Mms',
-        verbose_name=_('MMS'),
+        verbose_name=_('mms'),
         on_delete=models.CASCADE,
     )
 

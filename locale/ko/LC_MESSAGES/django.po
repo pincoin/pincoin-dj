@@ -1,0 +1,275 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-25 22:53+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: member/admin.py:23
+msgid "Account"
+msgstr "회원"
+
+#: member/admin.py:27
+msgid "Profile"
+msgstr "프로필"
+
+#: member/admin.py:45 member/models.py:55
+msgid "phone verified"
+msgstr "휴대폰인증"
+
+#: member/admin.py:64
+msgid "Full name"
+msgstr "본명"
+
+#: member/models.py:21
+msgid "cellphone unverified"
+msgstr "인증미완료"
+
+#: member/models.py:22
+msgid "cellphone verified"
+msgstr "인증완료"
+
+#: member/models.py:23
+msgid "cellphone revoked"
+msgstr "인증취소"
+
+#: member/models.py:27 member/models.py:211
+msgid "female"
+msgstr "여자"
+
+#: member/models.py:28 member/models.py:212
+msgid "male"
+msgstr "남자"
+
+#: member/models.py:32 member/models.py:216
+msgid "foreign"
+msgstr "외국인"
+
+#: member/models.py:33 member/models.py:167 member/models.py:217
+#: member/models.py:296
+msgid "domestic"
+msgstr "내국인"
+
+#: member/models.py:42 member/models.py:396
+msgid "phone number"
+msgstr "전화번호"
+
+#: member/models.py:49
+msgid "address"
+msgstr "주소"
+
+#: member/models.py:60
+msgid "cellphone verified status"
+msgstr "휴대폰인증 여부"
+
+#: member/models.py:67
+msgid "document verified"
+msgstr "서류인증"
+
+#: member/models.py:72
+msgid "allow order"
+msgstr "무조건 주문 허용"
+
+#: member/models.py:77
+msgid "photo ID"
+msgstr "신분증 사진"
+
+#: member/models.py:83
+msgid "bank account or debit/credit card"
+msgstr "통장 또는 카드 사진"
+
+#: member/models.py:89
+msgid "total order count"
+msgstr "전체주문횟수"
+
+#: member/models.py:94
+msgid "first purchased date"
+msgstr "첫구매일시"
+
+#: member/models.py:99
+msgid "last purchased date"
+msgstr "마지막구매일시"
+
+#: member/models.py:104
+msgid "not purchased for months"
+msgstr "장기미구매"
+
+#: member/models.py:109
+msgid "re-purchased date"
+msgstr "재구매일시"
+
+#: member/models.py:114
+msgid "max price"
+msgstr "최대결제액"
+
+#: member/models.py:121
+msgid "total list price"
+msgstr "액면가 합계금액"
+
+#: member/models.py:128
+msgid "total selling price"
+msgstr "판매가 합계금액"
+
+#: member/models.py:135
+msgid "average price"
+msgstr "평균결제액"
+
+#: member/models.py:142
+msgid "mileage"
+msgstr "마일리지"
+
+#: member/models.py:149
+msgid "user memo"
+msgstr "고객정보 메모"
+
+#: member/models.py:154 member/models.py:283
+msgid "date of birth"
+msgstr "생년월일"
+
+#: member/models.py:160 member/models.py:289
+msgid "gender"
+msgstr "성별"
+
+#: member/models.py:174 member/models.py:303
+msgid "telecom"
+msgstr "통신사"
+
+#: member/models.py:180
+msgid "profile"
+msgstr "프로필"
+
+#: member/models.py:181
+msgid "profiles"
+msgstr "프로필"
+
+#: member/models.py:190 member/models.py:228
+msgid "user"
+msgstr "사용자"
+
+#: member/models.py:198
+msgid "IP address"
+msgstr "IP주소"
+
+#: member/models.py:202
+msgid "login log"
+msgstr "로그인 로그"
+
+#: member/models.py:203
+msgid "login logs"
+msgstr "로그인 로그"
+
+#: member/models.py:221
+msgid "token"
+msgstr "토큰"
+
+#: member/models.py:236
+msgid "code"
+msgstr "코드"
+
+#: member/models.py:242
+msgid "reason"
+msgstr "사유"
+
+#: member/models.py:248
+msgid "result code"
+msgstr "결과코드"
+
+#: member/models.py:254
+msgid "message"
+msgstr "메시지"
+
+#: member/models.py:260
+msgid "transaction id"
+msgstr "트랜잭션 ID"
+
+#: member/models.py:266
+msgid "di"
+msgstr "DI"
+
+#: member/models.py:272
+msgid "ci"
+msgstr "CI"
+
+#: member/models.py:277
+msgid "fullname"
+msgstr "본명"
+
+#: member/models.py:309 member/models.py:330
+msgid "cellphone"
+msgstr "휴대전화"
+
+#: member/models.py:315
+msgid "return message"
+msgstr "리턴 메시지"
+
+#: member/models.py:321
+msgid "phone verification log"
+msgstr "휴대폰인증 로그"
+
+#: member/models.py:322
+msgid "phone verification logs"
+msgstr "휴대폰인증 로그"
+
+#: member/models.py:336
+msgid "sent datetime"
+msgstr "보낸일시"
+
+#: member/models.py:342 member/models.py:343 member/models.py:369
+msgid "mms"
+msgstr "MMS"
+
+#: member/models.py:351
+msgid "txt"
+msgstr "txt"
+
+#: member/models.py:352
+msgid "jpg"
+msgstr "jpg"
+
+#: member/models.py:353
+msgid "png"
+msgstr "png"
+
+#: member/models.py:357
+msgid "mime type"
+msgstr "MIME TYPE"
+
+#: member/models.py:364
+msgid "data"
+msgstr "데이터"
+
+#: member/models.py:374 member/models.py:375
+msgid "mms data"
+msgstr "MMS 데이터"
+
+#: member/models.py:383
+msgid "email address"
+msgstr "이메일주소"
+
+#: member/models.py:387
+msgid "banned email address"
+msgstr "차단 이메일주소"
+
+#: member/models.py:388
+msgid "banned email addresses"
+msgstr "차단 이메일주소"
+
+#: member/models.py:402
+msgid "banned phone number"
+msgstr "차단 휴대전화번호"
+
+#: member/models.py:403
+msgid "banned phone numbers"
+msgstr "차단 휴대전화번호"
