@@ -27,6 +27,7 @@ INSTALLED_APPS = [
 INSTALLED_APPS += [
     'mptt',
     'taggit',
+    'easy_thumbnails',
     'django_otp',
     'django_otp.plugins.otp_totp',
     'allauth',
@@ -62,7 +63,7 @@ ROOT_URLCONF = 'conf.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

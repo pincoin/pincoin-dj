@@ -15,13 +15,15 @@
 ### 주요 테이블 생성 패키지
 * django-model-utils
 * django-mptt
-* django-taggit
-  * taggit_
 * django-otp
   * otp_
 * django-allauth
   * account_
   * socialaccount_
+* django-taggit
+  * taggit_
+* easy-thumbnails
+  * easy_thumbnails_
 * easy_thumbnails (이관 안함)
   * easy_thumbnails_
 
