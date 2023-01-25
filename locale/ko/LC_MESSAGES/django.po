@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-25 22:53+0900\n"
+"POT-Creation-Date: 2023-01-25 23:03+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,17 +21,21 @@ msgstr ""
 msgid "Account"
 msgstr "회원"
 
-#: member/admin.py:27
+#: member/admin.py:26
 msgid "Profile"
 msgstr "프로필"
 
-#: member/admin.py:45 member/models.py:55
+#: member/admin.py:43 member/models.py:55
 msgid "phone verified"
 msgstr "휴대폰인증"
 
-#: member/admin.py:64
+#: member/admin.py:62
 msgid "Full name"
 msgstr "본명"
+
+#: member/apps.py:8
+msgid "member"
+msgstr "회원"
 
 #: member/models.py:21
 msgid "cellphone unverified"
