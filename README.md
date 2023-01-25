@@ -6,12 +6,13 @@
 * CLI 명령어 추가 배치(batch) 작업
 
 ## 의존성
+### 장고 기본 패키지
 * Django
   * django_
   * auth_
 * mysqlclient
 
-## 테이블 생성 패키지
+### 주요 테이블 생성 패키지
 * django-model-utils
 * django-mptt
 * django-taggit
@@ -24,14 +25,14 @@
 * easy_thumbnails (이관 안함)
   * easy_thumbnails_
 
-## 마이그레이션 대상 앱
+### 주요 이관 앱
 * member_
 * shop_
 * blog_
 * book_
-* board_ (미사용 이관 안 함)
-* banner_ (미사용 이관 안 함)
-* bookkeeping_ (미사용 이관 안 함)
+* board_ (미사용/이관 안 함)
+* banner_ (미사용/이관 안 함)
+* bookkeeping_ (미사용/이관 안 함)
 
 # RDBMS
 ## MariaDB RDBMS
