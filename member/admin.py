@@ -106,3 +106,7 @@ admin.site.register(Mms, MmsAdmin)
 admin.site.register(MmsData, MmsDataAdmin)
 admin.site.register(EmailBanned, EmailBannedAdmin)
 admin.site.register(PhoneBanned, PhoneBannedAdmin)
+
+admin.site.site_header = _('PINCOIN admin')
+admin.site.site_title = _('PINCOIN admin')
+admin.site.index_title = _('PINCOIN administration')
