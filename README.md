@@ -7,18 +7,33 @@
 
 ## 의존성
 * Django
+  * django_
+  * auth_
 * mysqlclient
+
+## 테이블 생성 패키지
+* django-model-utils
+* django-mptt
+* django-taggit
+  * taggit_
 * django-otp
+  * otp_
+* django-allauth
+  * account_
+  * socialaccount_
+* easy_thumbnails (이관 안함)
+  * easy_thumbnails_
 
 ## 마이그레이션 대상 앱
 우선순위
-* member
-* shop
+* member_
+* shop_
 차후 작업
-* banner
-* blog
-* board
-* book
+* blog_
+* book_
+* board_ (미사용 이관 안 함)
+* banner_ (미사용 이관 안 함)
+* bookkeeping_ (미사용 이관 안 함)
 
 # RDBMS
 ## MariaDB RDBMS
