@@ -24,8 +24,6 @@
   * taggit_
 * easy-thumbnails
   * easy_thumbnails_
-* easy_thumbnails (이관 안함)
-  * easy_thumbnails_
 
 ### 주요 이관 앱
 * member_

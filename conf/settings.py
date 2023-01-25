@@ -40,6 +40,7 @@ INSTALLED_APPS += [
 ]
 
 INSTALLED_APPS += [
+    'common',
     'member',
     'shop',
     'blog',
