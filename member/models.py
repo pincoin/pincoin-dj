@@ -174,6 +174,21 @@ class Profile(TimeStampedModel):
         verbose_name=_('telecom'),
         max_length=16,
         blank=True,
+        null=True,
+    )
+
+    access_token = models.CharField(
+        verbose_name=_('access token'),
+        max_length=256,
+        blank=True,
+        null=True,
+    )
+
+    refresh_token = models.CharField(
+        verbose_name=_('refresh token'),
+        max_length=256,
+        blank=True,
+        null=True,
     )
 
     class Meta:
