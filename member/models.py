@@ -177,20 +177,6 @@ class Profile(TimeStampedModel):
         null=True,
     )
 
-    access_token = models.CharField(
-        verbose_name=_('access token'),
-        max_length=256,
-        blank=True,
-        null=True,
-    )
-
-    refresh_token = models.CharField(
-        verbose_name=_('refresh token'),
-        max_length=256,
-        blank=True,
-        null=True,
-    )
-
     class Meta:
         verbose_name = _('profile')
         verbose_name_plural = _('profiles')
@@ -419,3 +405,31 @@ class PhoneBanned(SoftDeletableModel, TimeStampedModel):
 
     def __str__(self):
         return f'{self.phone} {self.created}'
+
+
+class Token(TimeStampedModel):
+    access_token = models.CharField(
+        verbose_name=_('access token'),
+        max_length=256,
+        blank=True,
+        null=True,
+    )
+
+    refresh_token = models.CharField(
+        verbose_name=_('refresh token'),
+        max_length=256,
+        blank=True,
+        null=True,
+    )
+
+    user = models.OneToOneField(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE
+    )
+
+    class Meta:
+        verbose_name = _('tokens')
+        verbose_name_plural = _('tokens')
+
+    def __str__(self):
+        return f'{self.id} token'
