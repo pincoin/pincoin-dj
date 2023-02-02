@@ -326,7 +326,7 @@ class PhoneVerificationLog(TimeStampedModel):
         return f'{self.fullname} {self.cellphone}'
 
 
-class Mms(models.Model):
+class Mms(TimeStampedModel):
     cellphone = models.CharField(
         verbose_name=_('cellphone'),
         max_length=32,
@@ -347,7 +347,7 @@ class Mms(models.Model):
         return f'{self.cellphone} {self.sent}'
 
 
-class MmsData(models.Model):
+class MmsData(TimeStampedModel):
     MIME_CHOICES = Choices(
         (0, 'txt', _('txt')),
         (1, 'jpg', _('jpg')),
