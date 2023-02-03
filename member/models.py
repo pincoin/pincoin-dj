@@ -407,18 +407,17 @@ class PhoneBanned(SoftDeletableModel, TimeStampedModel):
         return f'{self.phone} {self.created}'
 
 
-class Token(TimeStampedModel):
-    access_token = models.CharField(
-        verbose_name=_('access token'),
-        max_length=256,
+class RefreshToken(TimeStampedModel):
+    refresh_token = models.UUIDField(
+        verbose_name=_('refresh token'),
+        max_length=64,
+        default=uuid.uuid4,
         blank=True,
         null=True,
     )
 
-    refresh_token = models.CharField(
-        verbose_name=_('refresh token'),
-        max_length=256,
-        blank=True,
+    expires_in = models.DateTimeField(
+        verbose_name=_('expires in'),
         null=True,
     )
 
