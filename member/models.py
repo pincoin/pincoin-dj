@@ -410,7 +410,7 @@ class PhoneBanned(SoftDeletableModel, TimeStampedModel):
 class RefreshToken(TimeStampedModel):
     refresh_token = models.UUIDField(
         verbose_name=_('refresh token'),
-        max_length=64,
+        max_length=256,
         default=uuid.uuid4,
         blank=True,
         null=True,
