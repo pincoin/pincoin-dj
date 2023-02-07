@@ -414,6 +414,7 @@ class RefreshToken(TimeStampedModel):
         default=uuid.uuid4,
         blank=True,
         null=True,
+        db_index=True,
     )
 
     expires_in = models.DateTimeField(
