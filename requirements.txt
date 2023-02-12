@@ -4,6 +4,7 @@ django-otp==1.1.4
 qrcode==7.3.1
 django-model-utils==4.3.1
 django-mptt==0.14.0
+django-treebeard==4.6.1
 django-allauth==0.52.0
 django-taggit==3.1.0
 easy-thumbnails==2.8.5

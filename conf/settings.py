@@ -26,6 +26,7 @@ INSTALLED_APPS = [
 ]
 INSTALLED_APPS += [
     'mptt',
+    'treebeard',
     'taggit',
     'easy_thumbnails',
     'django_otp',
@@ -43,6 +44,7 @@ INSTALLED_APPS += [
     'common',
     'member',
     'shop',
+    'organization',
     'blog',
     'book',
 ]
